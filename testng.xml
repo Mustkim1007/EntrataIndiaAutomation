@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="driverClass.BaseClass"/>
+      <class name="testClassesPages.TC01_UrlPageTitle"/>
+      <class name="testClassesPages.TC02_WatchDemo"/>
+      <class name="testClassesPages.TC03_WatchDemoForm"/>
+      <class name="testClassesPages.TC04_SignInSection"/>
+      <class name="testClassesPages.TC05_SignInForm"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
